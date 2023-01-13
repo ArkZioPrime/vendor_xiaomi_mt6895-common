@@ -265,15 +265,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/camera/126_Fantasy2.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/126_Fantasy2.png \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/camera/127_Creamy.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/127_Creamy.png \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/camera/128_Sepia.png:$(TARGET_COPY_OUT_VENDOR)/etc/camera/128_Sepia.png \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/etc/camera/CFR_para_HD.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_HD.bin \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/etc/camera/CFR_para_M.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_M.bin \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/etc/camera/CFR_para_T.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_T.bin \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/etc/camera/CFR_para_UW.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_UW.bin \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/etc/camera/CFR_para_W.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/CFR_para_W.bin \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/camera/ai_scene.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ai_scene.bin \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/etc/camera/almalence_sr_params_UW_upscale.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_UW_upscale.config \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/etc/camera/almalence_sr_params_tele.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_tele.config \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/etc/camera/almalence_sr_params_wide.config:$(TARGET_COPY_OUT_VENDOR)/etc/camera/almalence_sr_params_wide.config \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/camera/anc.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/anc.bin \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/camera/apu_miai_preview.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/apu_miai_preview.bin \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/camera/deblur_sd_opencl_binary.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/deblur_sd_opencl_binary.bin \
@@ -288,7 +280,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/camera/mibokeh_mt6873_parameter.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/mibokeh_mt6873_parameter.bin \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/camera/quantize_mtk_0.00246_1800-360620_singleinput_bs1_1285.dla:$(TARGET_COPY_OUT_VENDOR)/etc/camera/quantize_mtk_0.00246_1800-360620_singleinput_bs1_1285.dla \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/camera/sceneDetection.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sceneDetection.xml \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/etc/camera/sr_params.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sr_params.xml \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/camera/svq_cache:$(TARGET_COPY_OUT_VENDOR)/etc/camera/svq_cache \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/camera/video_bokeh_apu_front_20210413.bin:$(TARGET_COPY_OUT_VENDOR)/etc/camera/video_bokeh_apu_front_20210413.bin \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/camera/vidhance_calibration:$(TARGET_COPY_OUT_VENDOR)/etc/camera/vidhance_calibration \
@@ -306,8 +297,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/camera/xiaomi/uwsuperlowlightshot.json:$(TARGET_COPY_OUT_VENDOR)/etc/camera/xiaomi/uwsuperlowlightshot.json \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/cit_param_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/cit_param_config.json \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/cust_color.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_color.xml \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/etc/cust_color_36.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_color_36.xml \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/etc/cust_color_42.xml:$(TARGET_COPY_OUT_VENDOR)/etc/cust_color_42.xml \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/default_pd_calibration.bin:$(TARGET_COPY_OUT_VENDOR)/etc/default_pd_calibration.bin \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/default_volume_tables.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default_volume_tables.xml \
     vendor/xiaomi/mt6895-common/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
@@ -1135,7 +1124,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib/mt6895/mtk000_mipi_raw_IdxMgr.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6895/mtk000_mipi_raw_IdxMgr.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib/mt6895/mtk000_mipi_raw_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/mt6895/mtk000_mipi_raw_tuning.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib/nfc_nci.nqx.default.hw.v1.so:$(TARGET_COPY_OUT_VENDOR)/lib/nfc_nci.nqx.default.hw.v1.so \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/lib/rfsa/adsp/libSuperSensor_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib/rfsa/adsp/libSuperSensor_skel.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib/se_nq_extn_client-v1.so:$(TARGET_COPY_OUT_VENDOR)/lib/se_nq_extn_client-v1.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib/secure_element-impl.so:$(TARGET_COPY_OUT_VENDOR)/lib/secure_element-impl.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib/sensors.touch.detect.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.touch.detect.so \
@@ -1239,11 +1227,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/com.xiaomi.plugin.misegment.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.xiaomi.plugin.misegment.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/com.xiaomi.plugin.rawsuperlight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.xiaomi.plugin.rawsuperlight.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/com.xiaomi.plugin.skinbeautifier.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.xiaomi.plugin.skinbeautifier.so \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/com.xiaomi.plugin.sr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.xiaomi.plugin.sr.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/com.xiaomi.plugin.superlowlight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.xiaomi.plugin.superlowlight.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/com.xiaomi.plugin.supernight.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.xiaomi.plugin.supernight.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/com.xiaomi.plugin.swflip.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.xiaomi.plugin.swflip.so \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/com.xiaomi.plugin.tetrassr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.xiaomi.plugin.tetrassr.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/egl/libGLES_meow.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libGLES_meow.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/egl/libMEOW_data.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_data.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/egl/libMEOW_gift.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libMEOW_gift.so \
@@ -1308,8 +1294,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libBasicModule.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libBasicModule.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libDefaultFpsActor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libDefaultFpsActor.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libFrameRecord.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libFrameRecord.so \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libHalSuperSensorServer.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libHalSuperSensorServer.so \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libHalSuperSensorServerCWrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libHalSuperSensorServerCWrapper.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libJpgEncPipe.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libJpgEncPipe.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libMtkOmxCore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkOmxCore.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libMtkSpeechEnh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libMtkSpeechEnh.so \
@@ -1318,9 +1302,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libOpenCL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOpenCL.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libSMBlemishAnalysis_new.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSMBlemishAnalysis_new.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libSQLiteModule_VER_ALL.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSQLiteModule_VER_ALL.so \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libSuperSensor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSuperSensor.so \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libSuperSensorCPU.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSuperSensorCPU.so \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libSuperSensorProcessor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libSuperSensorProcessor.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libTEECommon.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libTEECommon.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libVkLayer_mtk_rt_sdk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libVkLayer_mtk_rt_sdk.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/lib_android_keymaster_keymint_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_android_keymaster_keymint_utils.so \
@@ -1331,7 +1312,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/lib_eara_io_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_eara_io_util.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/lib_iir.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_iir.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/lib_speech_enh.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_speech_enh.so \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/lib_sr_models.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib_sr_models.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libaaa_gma.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaaa_gma.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libaachaptics.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaachaptics.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libaal_cust.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaal_cust.so \
@@ -1344,7 +1324,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libaispq.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libaispq.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libalCFR.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalCFR.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libalacdec_mtk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalacdec_mtk.so \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libalhLDC.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libalhLDC.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libanc_calibration_parser.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libanc_calibration_parser.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libanc_dc_base.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libanc_dc_base.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libanc_supervq.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libanc_supervq.so \
@@ -1602,7 +1581,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/librt_extamp_intf.so:$(TARGET_COPY_OUT_VENDOR)/lib64/librt_extamp_intf.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libruy.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libruy.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libscltm.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libscltm.so \
-    vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libsdk_sr.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsdk_sr.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libsensor_cal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensor_cal.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libsensorndkbridge.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsensorndkbridge.so \
     vendor/xiaomi/mt6895-common/proprietary/vendor/lib64/libsfplugin_ccodec_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libsfplugin_ccodec_utils.so \
